@@ -1,6 +1,6 @@
 # Boon
 <p align="center">
-  <img width="600" height="758" src="https://i.imgur.com/RttMDJG.png">
+  <img width="500" src="https://i.imgur.com/RttMDJG.png">
 </p>
 
 ## Program Description
@@ -18,7 +18,7 @@ A customizable Discord bot which interacts with single-target user mentions.
 * Under **OAuth2 > SCOPES**, check off <tt>bot</tt>, then below, give it the permissions <tt>Send Messages</tt> and <tt>View Channels</tt>
 * Copy the new URL right under **SCOPES**, paste it into your browser, select the servers for your boon to join
 * **Substitute for <tt>token.txt</tt>:** under **Bot > Build-A-Bot**, copy your token and substitute the first line in the file with it
-* **Customize your <tt>allowed_channels.txt</tt>:** head to a desired channel on the server, **Right-click > Copy ID** and paste the number into the file with each channel ID on separate lines (follow my example channel IDs!)
+* **Customize your <tt>allowed_channels.txt</tt>:** lists the server channels your boon can interact with. To add to the list, head to a desired channel, **Right-click > Copy ID** and paste it into the file; note that each channel ID must be on separate lines (follow my example channel IDs!)
 * **Customize your <tt>mentions_boon.txt</tt>:** each line will represent a different response from your boon for mentioning it
 * **Customize your <tt>mentions_other.txt</tt>:** each line will represent a different response from your boon for mentioning other users
 * Run your downloaded **<tt>boon.py</tt>**; for as long as the script is running, the bot will stay online and functional
